@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Uploaded files and local storage
+storage/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+
+# Logs
+*.log
